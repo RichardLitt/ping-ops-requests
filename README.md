@@ -1,22 +1,20 @@
-# node-github-issue-bot
+# ping-ops-requests
 
-> Automatically schedule and create GitHub issues
+> Ping ops-requests
 
 ## Install
 
 ```
-npm i node-github-issue-bot
+npm i ping-ops-requests
 ```
 
 ## Usage
 
-I suggest using `forever` to keep the process up and running.
-
 ```
-forever run cron.js
+npm i -g ping-ops-requests
 ```
 
-This uses `node-cron`, so you don't need to edit your crontab. Edit the templates file as needed. You'll need a `NODE_GITHUB_ISSUE_BOT` token from GitHub to create issues.
+You'll need a `NODE_GITHUB_ISSUE_BOT` token from GitHub to create issues.
 
 ## Maintainers
 
