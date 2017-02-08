@@ -5,7 +5,7 @@
 ## Install
 
 ```
-npm i ping-ops-requests
+npm i -g ping-ops-requests
 ```
 
 ## Usage
