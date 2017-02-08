@@ -4,7 +4,11 @@
   "description": "Ping ops-requests",
   "main": "index.js",
   "dependencies": {
-    "atob": "^2.0.3"
+    "bluebird": "^3.4.7",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "octokat": "^0.6.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
