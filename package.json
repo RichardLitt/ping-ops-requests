@@ -1,6 +1,6 @@
 {
   "name": "ping-ops-requests",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ping ops-requests",
   "main": "index.js",
   "dependencies": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/RichardLitt/ping-ops-requests#readme",
   "coordinates": [
-    45.5192165,
-    -73.5789124
+    45.5191549,
+    -73.5789418
   ]
 }
