@@ -9,9 +9,11 @@ var argv = require('minimist')(process.argv.slice(2), {
   }
 })
 
+const title = argv['t'] ? argv['t'] : `Please pin this hash`
+
 if (argv['test']) {
   createIssue({
-    title: `Please pin this hash`,
+    title: title,
     template: 'templates/issue.md',
     repo: 'RichardLitt/ping-ops-requests',
     hash: argv['h'],
@@ -19,7 +21,7 @@ if (argv['test']) {
   })
 } else if (argv['h'] && argv['d']) {
   createIssue({
-    title: `Please pin this hash`,
+    title: title,
     template: 'templates/issue.md',
     repo: 'ipfs/ops-requests',
     hash: argv['h'],
