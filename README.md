@@ -1,5 +1,7 @@
 # ping-ops-requests
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/ping-ops-requests.svg)](https://greenkeeper.io/)
+
 > Ping ops-requests
 
 ## Install
